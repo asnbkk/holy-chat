@@ -1,0 +1,24 @@
+.chat {
+    display: grid;
+    grid-gap: 1rem;
+}
+.header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1rem;
+}
+.buttons {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 1rem;
+}
+.messages {
+    display: grid;
+    background: #fafafa;
+    height: 200px;
+}
+.s_message {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-gap: 1rem;
+}
